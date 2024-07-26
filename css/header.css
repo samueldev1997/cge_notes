@@ -1,0 +1,82 @@
+.container_header{
+    width: 100%;
+    height: 200px;
+    background-color: #764991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+header p{
+    font-size: 21px;
+    color: #fff;
+}
+
+header p span{
+    color: #ccc;
+}
+
+.notes_count{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn_add_note,
+.btn_logout{
+    text-decoration: none;
+    background-color: #ecbbdd;
+    padding: 10px 30px;
+    color: #000;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.btn_add_note:hover,
+.btn_logout:hover{
+    background-color: #ac88a1;
+    color: #fff;
+}
+
+.btn_add_note i{
+    font-size: 14px;
+}
+
+.btn_area{
+    display: flex;
+    gap: 30px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background: #fff; /* Cor da linha */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.area_right_header{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 620px){
+    .area_right_header{
+        margin-top: 0;
+    }
+}

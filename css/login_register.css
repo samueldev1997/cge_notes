@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_login{
+    width: 100%;
+    height: 100vh;
+    background-color: #ecbbdd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.area_login{
+    width: 100%;
+    max-width: 980px;
+    background-color: #fff;
+    border-radius: 50px 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.area_login form{
+    margin: 26px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.area_login form label{
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.area_login form input{
+    margin-bottom: 26px;
+    padding: 10px 8px;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    outline: none;
+    font-size: 14px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.area_login form button{
+    padding: 10px 8px;
+    border: none;
+    background-color: #ecbbdd;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+
+.area_login form button:hover{
+    background-color: #ac88a1;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.area_login p{
+    font-size: 15px;
+}
+
+.area_login p a{
+    color: #000;
+}
+
+.area_login h2, span{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 22px;
+}
+
+.area_login h2 span{
+    text-decoration: underline;
+}
+
+.area_login h3{
+    text-decoration: underline;
+}
+
+.area_login h3, h2{
+    text-align: center;
+}
+
+.image_login{
+    width: 100%;
+    max-width: 400px;
+}
+
+.style_login_register{
+    width: 100%;
+    max-width: 290px;
+    padding: 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    background-color: #f1e0ff;
+}
+
+.style_area_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 400px;
+}
+
+@media (max-width: 900px) {
+    .area_login{
+        max-width: 560px;
+        padding: 30px;
+    }
+    .style_area_image{
+        display: none;
+    }
+}
+
