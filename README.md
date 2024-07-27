@@ -59,12 +59,23 @@ Este projeto foi desenvolvido para um teste técnico.
 
 6. **Acesse o projeto pelo navegador:**
    - Navegue para `http://localhost/cge_notes/pages/index.php` para visualizar o projeto em funcionamento.
+
+<br/> <br/> <br/>
   
+## 🎥 Video Demonstrativo sobre o Projeto
+
+https://github.com/user-attachments/assets/eff3ac17-00d0-4659-a86b-86ed215ad387
+
+
 <br/> <br/> <br/>
 <div align='center'>
 <img src="https://github.com/user-attachments/assets/67747568-7828-426a-bd12-99912586a81a" width='900px' />
 <img src="https://github.com/user-attachments/assets/a469ec25-0988-41d5-83a1-8f9c79715cd6" width='900px'/>
 <img src="https://github.com/user-attachments/assets/3d64897a-0830-4a8f-b7f9-3401c894e536" width='900px'/>
 </div>
+
+
+
+
 
 
